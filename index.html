@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery_v3.7.1.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Cek Ongkir Paving</h2>
+        <p>by @andyxforce</p>
+      </div>
+      <!-- Section input user -->
+      <div class="input">
+        <label for="jarak">Jarak (km): </label>
+        <input type="number" id="jarak" min="1" max="365" placeholder="Masukkan Jarak" />
+        <label>Max : 365 km</label>
+      </div>
+      <a href="https://maps.google.com" target="_blank" class="maps">MAPS</a>
+
+      <!-- Section input user end-->
+
+      <div class="hpa">
+        <p style="--bg: #0f0; --clr: #111">A11 : 58K</p>
+        <p style="--bg: yellow; --clr: #111">A13 : 60K</p>
+        <p style="--bg: orange; --clr: #111">A21 : 78K</p>
+        <p style="--bg: #f00; --clr: #fff">A23 : 78K</p>
+      </div>
+
+      <div class="ongkir6cm" id="ongkir6cm">
+        <!-- Section untuk menampilkan harga ongkir tebal 6 cm-->
+      </div>
+
+      <div class="ongkir8cm" id="ongkir8cm">
+        <!-- Section untuk menampilkan harga ongkir tebal 6 cm-->
+      </div>
+    </div>
+  </body>
+</html>
